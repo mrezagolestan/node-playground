@@ -1,0 +1,7 @@
+docker
+node_modules
+.env
+.env.local
+.env.staging
+.env.production
+package-lock.json
