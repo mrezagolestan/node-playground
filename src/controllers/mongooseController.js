@@ -1,7 +1,7 @@
-import mongoose from "mongoose";
-import {ContactSchema} from "../models/crmModel";
+import mongooseService from "../services/mongoose.service";
+import {ContactSchema} from "../models/mongooseModel";
 
-const Contact = mongoose.model('Contact', ContactSchema);
+const Contact = mongooseService.model('Contact', ContactSchema);
 
 export const getContacts = (req, res) => {
     Contact.find({}, (err, contacts) => {

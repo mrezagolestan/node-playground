@@ -28,6 +28,7 @@ It's a ground for me in order to play with Node.js and all stuff around.
     - Test (Unit / Feature)
     - Database Migration / Seeders
     - CORS
+    - Routing: better & flexible
 - Utils
     - Pagination
 - Deploy
