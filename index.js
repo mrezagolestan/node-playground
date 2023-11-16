@@ -2,15 +2,20 @@ import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from "body-parser";
 import routes from './src/routes/crmRoute'
+import 'dotenv/config'
+
+import dbConfig from './src/configs/db.config'
+
 
 const app = express();
 const PORT = 3000;
 
 //mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://root:example@localhost:27017/CRMdb?authSource=admin', {
+mongoose.connect(`mongodb://${dbConfig.mongodb.user}:${dbConfig.mongodb.pass}@${dbConfig.mongodb.host}:${dbConfig.mongodb.port}/${dbConfig.mongodb.db}?authSource=${dbConfig.mongodb.authSource}`, {
     useNewUrlParser: true,
 });
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

@@ -1,4 +1,3 @@
-
 It's a ground for me in order to play with Node.js and all stuff around.
 
 ## Done checklist
@@ -7,6 +6,7 @@ It's a ground for me in order to play with Node.js and all stuff around.
     - MongoDB
 - Structure
     - Serve Static files
+    - Env
 - Deploy
     - Docker Compose :  simple
 
@@ -25,8 +25,11 @@ It's a ground for me in order to play with Node.js and all stuff around.
     - Middleware
     - Error Handling
     - Config
-    - Env
     - Test (Unit / Feature)
+    - Database Migration / Seeders
+    - CORS
+- Utils
+    - Pagination
 - Deploy
     - Docker Compose : server node from docker
     - Serverless
