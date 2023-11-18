@@ -6,6 +6,7 @@ It's a ground for me in order to play with Node.js and all stuff around.
     - MongoDB
 - Structure
     - Serve Static files
+    - Config
     - Env
 - Deploy
     - Docker Compose :  simple
@@ -21,10 +22,11 @@ It's a ground for me in order to play with Node.js and all stuff around.
     - RabbitMQ
     - Simple File Upload
     - S3 upload
+    - Sentry
 - Structure
     - Middleware
     - Error Handling
-    - Config
+    - Logger
     - Test (Unit / Feature)
     - Database Migration / Seeders
     - CORS
@@ -36,3 +38,22 @@ It's a ground for me in order to play with Node.js and all stuff around.
     - Serverless
     - Localstack (simulate AWS)
     - Terraform
+- ORM
+    - TypeORM
+    - Prisma
+    - Mongoose
+- Architectures
+    - NestJS CQRS
+    - GraphQL
+- Integration Tools
+    - Auth0
+    - Commercetools
+    - Content AI
+    - Forest Admin
+    - Adobe Experience
+    - Strapi
+- Frameworks
+    - Express.js
+    - NestJs
+    - Serverless
+    - AdonisJS
